@@ -33,7 +33,7 @@ class PngFig(luigi.Task):
         return ImportData(sql_json=self.sql_json ,dir=self.data_dir)
 
     def output(self):
-        file_name='desktop_{}.png'.format(self.date)
+        file_name='web_{}.png'.format(self.date)
         return luigi.LocalTarget(os.path.join(str(self.data_dir), file_name))
 
     def run(self):
