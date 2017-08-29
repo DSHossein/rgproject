@@ -1,0 +1,13 @@
+{
+  "user": "hossein",
+  "password": "mncv5qm125a3asdv2fdas56gcsvd",
+  "host": "reportingdb.dealdashstudios.com",
+  "port": 3306,
+  "connect_args": {
+    "ssl": {
+      "ca": "C:\\Users\\Hossein Yousefi\\mysql_ssl_certs\\ca-cert.pem",
+      "cert": "C:\\Users\\Hossein Yousefi\\mysql_ssl_certs\\client-cert.pem",
+      "key": "C:\\Users\\Hossein Yousefi\\mysql_ssl_certs\\client-key.pem"    }
+  }
+}
+
